@@ -12,6 +12,8 @@ export class ProductListComponent {
     imagePadding: number = 2;
     imageBorder: number = 5;
     showImage: boolean = false;
+    listFilter: string = 'cart';
+
     products: any[] = [
         {
             "productId": 2,
