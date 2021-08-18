@@ -2,15 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'pm-root',
-  template:
+  template: `
+    <div><h1>{{pageTitle}}</h1>
+      <pm-products></pm-products>
+    </div>  
   `
-  <div>
-    <h1>{{pageTitle}}</h1>
-      <div>
-        My First Component
-      </div>
-  </div> 
-  ` 
 })
 
 export class AppComponent {
